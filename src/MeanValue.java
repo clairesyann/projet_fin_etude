@@ -1,6 +1,7 @@
 import java.util.Map;
 import java.util.List;
 
+
 public class MeanValue {
     public static Double findMeanValues(Map<String, List<Double>> map) {
         int count = 0;

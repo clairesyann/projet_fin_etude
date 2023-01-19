@@ -3,6 +3,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.List;
 import java.util.ArrayList;
+
 public class RandomMap {
     public static Map<String, List<Double>> generateRandomMap(int n, int m) {
         if(n <= 0 || m <= 0) return null;
