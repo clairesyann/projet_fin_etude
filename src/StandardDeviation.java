@@ -1,7 +1,6 @@
 import java.util.Map;
 import java.util.List;
 
-
 public class StandardDeviation {
     public static Double findStandardDeviationValues(Map<String, List<Double>> map) {
         if(map == null || map.isEmpty()) return null;

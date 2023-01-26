@@ -1,7 +1,6 @@
 import java.util.Map;
 import java.util.List;
 
-
 public class MaxValue {
     public static Double findMaxValues(Map<String, List<Double>> map) {
         double max = Double.MIN_VALUE;
