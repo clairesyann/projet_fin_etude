@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        Map<String, List<Double>> randomMap = RandomMap.generateRandomMap(10000, 20);
+        Map<String, List<Double>> randomMap = RandomMap.generateRandomMap(10001, 20);
         System.out.println(randomMap);
 
         assert randomMap != null;
